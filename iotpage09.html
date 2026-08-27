@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!--HTML : Form TAG (Block Tag) + Form's Elements TAG (Inline Tag)-->
+    <form action="" method="">
+        <!--พวกป้อน-->
+        <label for="">ป้อนอะไรก็ได้</label>
+        <input type="text" name="" id="" placeholder="ป้อนชื่อ-สกุล" />
+        <br/><br/>
+        <label for="">ป้อนได้แค่ตัวเลข</label>
+        <input type="number" name="" id="" placeholder="ป้อนอายุ" />
+        <br/><br/>
+        <label for="">ป้อนรหัสผ่าน</label>
+        <input type="password" name="" id="" placeholder="อย่างน้อย 6 ตัวอักษร" />
+        <br/><br/>
+        <label for="">ป้อนอีเมล</label>
+        <input type="email" name="" id="" placeholder="name@mail.com" />
+        <br/><br/>
+        <label for="">ป้อนเยอะๆ</label>
+        <textarea name="" id="" rows="5" cols="30"></textarea>
+        <br/><br/>
+        <!--พวกเลือก-->
+        <!--เลือกได้แค่ 1 แล้วต้องเลือก-->
+        <label for="">เพศ</label>
+        <input type="radio" name="gender" id="">ชาย
+        <input type="radio" name="gender" id=""checked>หญิง
+        <input type="radio" name="gender" id="">LGBTQ+
+        <br/><br/>
+        <label for="">จังหวัด</label>
+        <select name="" id=""> <!-- Dropdown/ComboBox-->
+            <option value="">กทม.</option>
+            <option value="">ระยอง</option>
+            <option value="" selected>ยะลา</option>
+            <option value="">พะเยา</option>
+        </select>
+        <br/><br/>
+        <!--เลือกได้มากกว่า 1 หรือไม่ต้องเลือก-->
+        <label for="">อาหารที่ชอบ</label>
+        <input type="checkbox" name="" id="">KFC
+        <input type="checkbox" name="" id="">Pizza
+        <input type="checkbox" name="" id="">Sushi      
+        <input type="checkbox" name="" id="" checked>ข้าวมันไก่      
+        <input type="checkbox" name="" id="">ไก่ทอดหาดใหญ่
+        <br/><br/>
+        <!--เลือกวันอย่างเดียว-->
+        <br/><br/>
+        <label for="">วันเกิด</label>
+        <input type="date" name="" id="">
+                
+        <!--เลือกเวลาอย่างเดียว-->
+        <br/><br/>
+        <label for="">เวลาเกิด</label>
+        <input type="time" name="" id="">
+
+        <!--เลือกวันและเวลาอย่างเดียว-->
+        <br/><br/>
+        <label for="">วันเวลาเข้าทำงาน</label>
+        <input type="datetime-local" name="" id="">    
+        <!--เลือกไฟล์แบบไม่กรองประเภทไฟล์-->
+        <br/><br/>เลือกไฟล์อะไรก็ได้
+        <input type="file" name="" id="">
+        <!--เลือกไฟล์แบบกรองประเภทไฟล์ เช่น ไฟล์รูปอย่างเดียว-->
+        <br/><br/>เลือกไฟล์รูปเท้านั้น
+        <input type="file" name="" id="" accept="image/*">
+        <!--เลือกไฟล์แบบกรองประเภทไฟล์ เช่น เฉาะ doc,docx,pdf-->
+        <br/><br/>เลือกไฟล์ word และ pdf เท่านั้น
+        <input type="file" name="" id="" accept=".doc,.docx,.pdf">
+
+        <!--ปุ่มแบบกดเพื่อนำข้อมูลในฟอร์มที่ป้อนและเลือกไปใช้งาน-->
+        <br/><br/>
+        <input type="submit" value="บันทึก/ตกลง/ยืนยัน/แก้ไข/ลบ">
+
+        <!--ปุ่มแบบกดเพื่อล้างข้อมูลในฟอร์ม-->
+        <br/><br/>
+        <input type="reset" value="ล้างข้อมูล/ยกเลิก/รีเซ็ต">
+
+        <!--ปุ่มแบบกดเพื่อทำงานใดๆ-->
+        <br/><br/>
+        <button>ข้อความบนปุ่มแล้วแต่ละพิมพ์</button>
+
+        <!--input type ประเภทแบบที่ไม่แสดงที่หน้าจอ-->
+        <br/><br/>
+        <input type="hidden" name=""value="7">
+    </form>
+
+    <br/><br/>
+    <!--HTML : Div TAG (Block Tag)-->
+    <!--มันคือกล่องที่มีความกว้างยึดเต็มพื้นที่-->
+    <div>
+        content.....
+    </div>
+    WOO WOO WOO
+
+
+    <!--HTML : Span TAG (Inline Tag)-->
+    <!--มันคือกล่องที่มีความกวว้างไม่ยึดเต็มพื้นที่ คือ กว้างเท่ากับตัว contents-->
+    <span>
+        content.....SPAN
+    </span>
+
+    WOW WOW WOW
+
+
+  </body>
+</html>
